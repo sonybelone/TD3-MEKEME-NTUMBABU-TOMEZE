@@ -12,6 +12,8 @@ if __name__=="__main__":
 		b = sys.argv[2]
 		print(sys.argv)
 		print(add(a,b))
+	else :
+		print("insere le que deux nombre")
 
 
 
