@@ -10,10 +10,16 @@ if __name__=="__main__":
 	elif len(sys.argv)==3:
 		a = sys.argv[1]
 		b = sys.argv[2]
-		print(sys.argv)
 		print(add(a,b))
-	else :
-		print("insere le que deux nombre")
+	elif len(sys.argv)==2:
+		a= int(sys.argv[1])
+		b= int(input("inserer une deuxieme valeur: "))
+		print(add(a,b))
+	else:
+		a= int(input("inserer la premier: "))
+		b= int(input("inserer la deuxieme valeur: "))
+		print(add(a,b))
+
 
 
 
