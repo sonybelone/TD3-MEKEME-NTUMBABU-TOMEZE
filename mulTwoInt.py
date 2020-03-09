@@ -9,3 +9,5 @@ if __name__=="__main__":
 		a= int(sys.argv[1])
 		b= int(sys.argv[2])
 		print(mul(a,b))
+	else :
+		print("inserer deux nombres s'il vous plait")
