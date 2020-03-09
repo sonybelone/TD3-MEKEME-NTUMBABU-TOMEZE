@@ -9,5 +9,12 @@ if __name__=="__main__":
 		a= int(sys.argv[1])
 		b= int(sys.argv[2])
 		print(mul(a,b))
-	else :
-		print("inserer deux nombres s'il vous plait")
+	elif len(sys.argv)==2:
+		a= int(sys.argv[1])
+		b= int(input("inserer deuxieme valeur s'il vous plait: "))
+		print (mul(a,b))
+	else:
+		a= int (input("inserer premiere valeur s'il vous plait: "))
+		b= int(input("inserer deuxieme valeur s'il vous plait: "))
+		print (mul(a,b))
+
